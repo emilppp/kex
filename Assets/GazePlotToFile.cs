@@ -11,7 +11,8 @@ public class GazePlotToFile : MonoBehaviour {
 
 	private bool            _useFilter = false;
 
-	public string fileName = "Assets/emil_fgt.txt";
+	public string uniqueId = "";
+	string fileName = "";
 	private StreamWriter sr;
 
 	public bool UseFilter
@@ -22,7 +23,21 @@ public class GazePlotToFile : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		sr = File.CreateText (fileName);
+		uniqueId = SessionController.id;
+		fileName = "Assets/" + uniqueId + "/" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
+		string filepath = fileName + ".txt";
+		try {
+			if (!File.Exists (filepath)) {
+				sr = File.CreateText (filepath);
+			} else {
+				GetComponent<FileToGazePlot> ().enabled = true;
+				this.enabled = false;
+			}
+		}
+		catch(IOException e) {
+			Debug.Log (e.StackTrace);
+		}
+
 	}
 	
 	// Update is called once per frame
@@ -45,6 +60,10 @@ public class GazePlotToFile : MonoBehaviour {
 	}
 
 	void OnApplicationQuit() {
+		sr.Close ();
+	}
+
+	public void CloseStreamReader() {
 		sr.Close ();
 	}
 }

@@ -13,6 +13,10 @@ public class FileToGazePlot : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		string uniqueId = SessionController.id;
+		string fileName = "Assets/" + uniqueId + "/" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
+		path = fileName + ".txt";
 		
 		try {
 			sr = File.OpenText(path);
