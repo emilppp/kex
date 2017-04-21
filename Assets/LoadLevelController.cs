@@ -17,4 +17,9 @@ public class LoadLevelController : MonoBehaviour {
 	public void LoadLevel(string level) {
 		UnityEngine.SceneManagement.SceneManager.LoadScene (level);
 	}
+
+	public void ExitApplication() {
+		Debug.Log ("THank you!");
+		Application.Quit ();
+	}
 }

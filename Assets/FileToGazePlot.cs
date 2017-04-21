@@ -15,7 +15,7 @@ public class FileToGazePlot : MonoBehaviour {
 	void Start () {
 
 		string uniqueId = SessionController.id;
-		string fileName = "Assets/" + uniqueId + "/" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
+		string fileName = "Assets/samples/" + uniqueId + "_" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
 		path = fileName + ".txt";
 		
 		try {
@@ -27,7 +27,7 @@ public class FileToGazePlot : MonoBehaviour {
 
 			while(line != null) {
 				
-				string[] tokens = line.Split("|"[0]);
+				string[] tokens = line.Split("|"[0]);	
 				string timestamp = tokens[0];
 
 				string vector = tokens[1].Replace("(", "");
@@ -54,8 +54,8 @@ public class FileToGazePlot : MonoBehaviour {
 	void PlotVector(string timestamp, Vector2 position, int index) {
 		Vector3 gazePoint = ProjectToPlaneInWorld (position);
 
-		var pointCloudSprite = new GameObject("PointCloudSprite fuck" + index);
-		//pointCloudSprite.transform.localScale *= 0.3f;
+		var pointCloudSprite = new GameObject("PointCloudSprite" + index);
+		pointCloudSprite.transform.localScale *= 0.2f;
 
 		pointCloudSprite.transform.position = gazePoint;
 
@@ -64,7 +64,7 @@ public class FileToGazePlot : MonoBehaviour {
 
 		//Set the alpha of the sprite
 		Color c = pointCloudSprite.GetComponent<SpriteRenderer> ().color;
-		c.a = 0.2f;
+		c.a = 0.1f;
 		pointCloudSprite.GetComponent<SpriteRenderer> ().color = c;
 	}
 	

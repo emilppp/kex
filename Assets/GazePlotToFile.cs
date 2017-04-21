@@ -24,7 +24,7 @@ public class GazePlotToFile : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		uniqueId = SessionController.id;
-		fileName = "Assets/" + uniqueId + "/" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
+		fileName = "Assets/samples/" + uniqueId + "_" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name;
 		string filepath = fileName + ".txt";
 		try {
 			if (!File.Exists (filepath)) {

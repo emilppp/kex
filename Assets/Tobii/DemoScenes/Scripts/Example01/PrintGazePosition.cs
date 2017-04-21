@@ -20,8 +20,7 @@ public class PrintGazePosition : MonoBehaviour
         if (EyeTracking.GetGazePoint().IsValid)
         {
             Vector2 roundedSampleInput = new Vector2(Mathf.RoundToInt(gazePosition.x), Mathf.RoundToInt(gazePosition.y));
-            xCoord.text = "x (in px): " + roundedSampleInput.x;
-            yCoord.text = "y (in px): " + roundedSampleInput.y;
+
         }
     }
 }
