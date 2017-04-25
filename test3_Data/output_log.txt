@@ -19,28 +19,28 @@ Platform assembly: C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\
 Loading C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
 Loading C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
-- Completed reload, in  0.028 seconds
+- Completed reload, in  0.031 seconds
 Platform assembly: C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\emil\Documents\New Unity Project\test3_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1200 59Hz; virtual: 2880x1800 at 0,0
+desktop: 1920x1200 59Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.030551 ms
+UnloadTime: 0.809647 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 10e8 -> priority: 1 
+  Thread -> id: 1628 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.441885 ms
+UnloadTime: 2.896729 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 367.
-Total: 0.517132 ms (FindLiveObjects: 0.059608 ms CreateObjectMapping: 0.021711 ms MarkObjects: 0.415679 ms  DeleteObjects: 0.018948 ms)
+Total: 0.223827 ms (FindLiveObjects: 0.038291 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.165403 ms  DeleteObjects: 0.009474 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.432179 ms
+UnloadTime: 0.350149 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 361.
-Total: 0.285014 ms (FindLiveObjects: 0.034738 ms CreateObjectMapping: 0.016185 ms MarkObjects: 0.218300 ms  DeleteObjects: 0.014606 ms)
+Total: 0.303173 ms (FindLiveObjects: 0.054871 ms CreateObjectMapping: 0.058818 ms MarkObjects: 0.178825 ms  DeleteObjects: 0.009868 ms)
 
 Tobii EyeTracking is running.
  
@@ -70,10 +70,10 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename:  Line: -1)
 
-UnloadTime: 21.805605 ms
+UnloadTime: 3.009629 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.392783 ms (FindLiveObjects: 0.106584 ms CreateObjectMapping: 0.018553 ms MarkObjects: 0.254223 ms  DeleteObjects: 0.012632 ms)
+Total: 0.268040 ms (FindLiveObjects: 0.035528 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.211589 ms  DeleteObjects: 0.009079 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
@@ -99,10 +99,10 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.732418 ms
+UnloadTime: 6.573103 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.380151 ms (FindLiveObjects: 0.037501 ms CreateObjectMapping: 0.015000 ms MarkObjects: 0.309489 ms  DeleteObjects: 0.017369 ms)
+Total: 0.266855 ms (FindLiveObjects: 0.040660 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.205668 ms  DeleteObjects: 0.009474 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
@@ -128,16 +128,16 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.000386 ms
+UnloadTime: 5.528576 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 370.
-Total: 0.256197 ms (FindLiveObjects: 0.033949 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.200536 ms  DeleteObjects: 0.010263 ms)
+Total: 0.288962 ms (FindLiveObjects: 0.039475 ms CreateObjectMapping: 0.012632 ms MarkObjects: 0.226195 ms  DeleteObjects: 0.009474 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.405020 ms
+UnloadTime: 0.324885 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.888203 ms (FindLiveObjects: 0.292120 ms CreateObjectMapping: 0.058424 ms MarkObjects: 0.504105 ms  DeleteObjects: 0.031580 ms)
+Total: 0.270803 ms (FindLiveObjects: 0.045791 ms CreateObjectMapping: 0.014606 ms MarkObjects: 0.196983 ms  DeleteObjects: 0.012632 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
@@ -163,10 +163,10 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 9.049811 ms
+UnloadTime: 29.756413 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.263303 ms (FindLiveObjects: 0.036317 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.205668 ms  DeleteObjects: 0.010263 ms)
+Total: 0.290146 ms (FindLiveObjects: 0.063950 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.207247 ms  DeleteObjects: 0.007895 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
@@ -192,10 +192,10 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 25.118406 ms
+UnloadTime: 12.931458 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.341465 ms (FindLiveObjects: 0.053292 ms CreateObjectMapping: 0.015000 ms MarkObjects: 0.262118 ms  DeleteObjects: 0.009868 ms)
+Total: 0.269619 ms (FindLiveObjects: 0.032370 ms CreateObjectMapping: 0.013816 ms MarkObjects: 0.213563 ms  DeleteObjects: 0.009079 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
@@ -221,10 +221,10 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 29.442974 ms
+UnloadTime: 25.717649 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 366.
-Total: 0.351334 ms (FindLiveObjects: 0.036712 ms CreateObjectMapping: 0.011447 ms MarkObjects: 0.290936 ms  DeleteObjects: 0.011447 ms)
+Total: 0.256197 ms (FindLiveObjects: 0.031580 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.203694 ms  DeleteObjects: 0.010263 ms)
 
 THank you!
  
