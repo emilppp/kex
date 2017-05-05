@@ -1,0 +1,236 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M           (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     1996 MB
+    Driver:   10.18.13.5946
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+- Completed reload, in  0.030 seconds
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\emil\Documents\New Unity Project\aaaaaa_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.177562 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: cc4 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.772700 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 0.267645 ms (FindLiveObjects: 0.044212 ms CreateObjectMapping: 0.033159 ms MarkObjects: 0.180799 ms  DeleteObjects: 0.009079 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.430680 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 361.
+Total: 0.341465 ms (FindLiveObjects: 0.058818 ms CreateObjectMapping: 0.022895 ms MarkObjects: 0.233696 ms  DeleteObjects: 0.025659 ms)
+
+Tobii EyeTracking is running.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 4.973553 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.268435 ms (FindLiveObjects: 0.061187 ms CreateObjectMapping: 0.014211 ms MarkObjects: 0.180799 ms  DeleteObjects: 0.011842 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.605955 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.380941 ms (FindLiveObjects: 0.080925 ms CreateObjectMapping: 0.016579 ms MarkObjects: 0.266461 ms  DeleteObjects: 0.016185 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.496528 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 370.
+Total: 0.411337 ms (FindLiveObjects: 0.159482 ms CreateObjectMapping: 0.021316 ms MarkObjects: 0.218695 ms  DeleteObjects: 0.011447 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.377388 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.359229 ms (FindLiveObjects: 0.033159 ms CreateObjectMapping: 0.015395 ms MarkObjects: 0.269619 ms  DeleteObjects: 0.040660 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 27.242628 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.735038 ms (FindLiveObjects: 0.493841 ms CreateObjectMapping: 0.014606 ms MarkObjects: 0.217511 ms  DeleteObjects: 0.008684 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 28.395321 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 1.280199 ms (FindLiveObjects: 0.523843 ms CreateObjectMapping: 0.018948 ms MarkObjects: 0.275540 ms  DeleteObjects: 0.461077 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GazePlotToFile.CloseStreamReader () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.891288 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 366.
+Total: 0.675825 ms (FindLiveObjects: 0.049739 ms CreateObjectMapping: 0.011053 ms MarkObjects: 0.200931 ms  DeleteObjects: 0.413311 ms)
+
+THank you!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tobii EyeTracking is shutting down.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

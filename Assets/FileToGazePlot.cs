@@ -8,6 +8,7 @@ public class FileToGazePlot : MonoBehaviour {
 
 	public Sprite PointSprite;
 	StreamReader sr;
+	float speed = 1f;
 
 	public string path = "";
 
@@ -56,6 +57,7 @@ public class FileToGazePlot : MonoBehaviour {
 
 		var pointCloudSprite = new GameObject("PointCloudSprite" + index);
 		pointCloudSprite.transform.localScale *= 0.2f;
+		pointCloudSprite.transform.parent = this.transform;
 
 		pointCloudSprite.transform.position = gazePoint;
 
@@ -70,7 +72,7 @@ public class FileToGazePlot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		GetInput ();
 	}
 
 	private Vector3 ProjectToPlaneInWorld(Vector2 gazePoint)
@@ -78,4 +80,18 @@ public class FileToGazePlot : MonoBehaviour {
 		Vector3 gazeOnScreen = (transform.forward * 10f) + (Vector3)gazePoint;
 		return Camera.main.ScreenToWorldPoint(gazeOnScreen);
 	}
+
+	private void GetInput() {
+		float xMove = Input.GetAxis ("Horizontal");
+		float yMove = Input.GetAxis ("Vertical");
+
+		transform.position += new Vector3 (xMove * speed * Time.deltaTime, yMove * speed * Time.deltaTime, 0f);
+	
+		if (Input.GetKeyDown (KeyCode.P)) {
+			Application.CaptureScreenshot (SessionController.id + "_" + UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name + ".png");
+		}
+	
+	}
+
+
 }
